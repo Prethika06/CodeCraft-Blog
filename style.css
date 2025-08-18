@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  background-color: rgba(107, 229, 168, 0.96);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+}
+.container1 h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.container2 {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}
+a {
+  font-size: large;
+  text-decoration: none;
+  color: white;
+}
+.hero {
+  padding-top: 10%;
+  text-align: center;
+  color: black;
+  line-height: 40px;
+}
+.hero p {
+  word-spacing: 2px;
+}
+.hero button {
+  color: white;
+  background-color: blue;
+  border-color: blue;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.article {
+  scroll-margin: 100px;
+  margin-top: 10px;
+}
+.article h1,
+p {
+  text-align: center;
+}
+.para li {
+  margin-left: 40%;
+  line-height: 30px;
+}
+.container2 nav:hover {
+  transform: translateY(-5px);
+}
+@media (max-width: 600px) {
+  html,
+  body {
+    width: 100vh;
+    height: 100vh;
+  }
+  header {
+    width: 100%;
+  }
+  .container1 h1 {
+    font-size: medium;
+  }
+  .hero {
+    padding-top: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero h1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.8rem;
+    align-items: center;
+  }
+  .hero p {
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 19%;
+  }
+  .hero button {
+    margin-left: 25%;
+    font-size: 1rem;
+    width: 50%;
+  }
+  .hero img {
+    padding-left: 25%;
+  }
+  .para li {
+    margin-left: 20%;
+  }
+  .article2 p {
+    text-align: justify;
+    padding: 0;
+  }
+  .article2 ul {
+    padding: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .hero h1 {
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+  .hero p {
+    padding-left: 5%;
+  }
+}
+.para button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.article2 {
+  scroll-margin: 100px;
+}
+.article2 h2 {
+  text-align: center;
+  color: rgb(1, 1, 88);
+  padding: 20px 0;
+}
+.article2 p {
+  padding: 0 100px;
+  line-height: 30px;
+  text-indent: 140px;
+  text-align: justify;
+}
+.article2 ul {
+  padding-left: 20%;
+  list-style-type: disc;
+  line-height: 30px;
+}
+footer {
+  padding: 40px 0;
+  color: rgb(73, 70, 70);
+}

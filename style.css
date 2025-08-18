@@ -95,10 +95,11 @@ p {
     width: 50%;
   }
   .hero img {
-    padding-left: 60%;
+    margin-left: 20%;
   }
   .para li {
     margin-left: 20%;
+    margin-right:30px;
   }
   .article2 p {
     text-align: justify;
@@ -149,6 +150,7 @@ footer {
   padding: 40px 0;
   color: rgb(73, 70, 70);
 }
+
 
 
 

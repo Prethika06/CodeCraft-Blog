@@ -95,7 +95,7 @@ p {
     width: 50%;
   }
   .hero img {
-    padding-left: 40%;
+    padding-left: 60%;
   }
   .para li {
     margin-left: 20%;
@@ -149,5 +149,6 @@ footer {
   padding: 40px 0;
   color: rgb(73, 70, 70);
 }
+
 
 

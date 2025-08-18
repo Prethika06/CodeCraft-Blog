@@ -99,7 +99,7 @@ p {
   }
   .para li {
     margin-left: 20%;
-    margin-right:15%;
+    margin-right:20%;
     text-align:justify;
   }
   .article2 p {
@@ -151,6 +151,7 @@ footer {
   padding: 40px 0;
   color: rgb(73, 70, 70);
 }
+
 
 
 
